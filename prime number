@@ -1,0 +1,6 @@
+num= int(input("bir sayı giriniz:"))
+
+if (num % 2)==0 :
+      print("{}is not prime number".format(num))
+else:
+  print("{}is prime number".format(num))
