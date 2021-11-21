@@ -1,0 +1,15 @@
+number = input("Enter you number")
+if number.isdigit() and int(number) > 0:
+   length=len(number)
+   sum = 0
+   for integer in number:
+     integer = int(integer)
+     sum += integer**length
+   if int(number)==sum:
+        print("This is an amstrong number")
+   
+   else:
+    print("This is not an amstrong number")
+
+else:
+  print("please enter a valid number")
