@@ -1,6 +1,9 @@
-num= int(input("bir sayı giriniz:"))
-
-if (num % 2)==0 :
-      print("{}is not prime number".format(num))
+n=int(input("Enter a positive number to check if it is a Prime Number?"))
+counter = 0
+for  i in range(2,n+1) :
+  if n %i ==0:
+    counter+=1
+if (n==0) or (n==1) or (counter>=3):
+  print(n,"is not a prime number")
 else:
-  print("{}is prime number".format(num))
+  print(n,"is a prime number")
