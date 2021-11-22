@@ -13,3 +13,23 @@ if number.isdigit() and int(number) > 0:
 
 else:
   print("please enter a valid number")
+
+
+
+armstrong number:
+
+while True :
+  number= input("Enter a pozitif integer number:")
+  digits=len(number)
+  summ=0
+  if not number.isdigit():
+    print(number,"girdiğin numara yanlış,tekrar giriniz!")
+  elif int(number) >=0:
+    for i in range(digits) :
+      summ=summ + int(number[i])**digits
+      if summ==int(number):
+        print(number,"is an amstrong number")
+        break
+      else:
+        print(number,"is not an amstrong number")
+        break
