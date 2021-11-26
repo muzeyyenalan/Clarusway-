@@ -4,4 +4,6 @@ name_enter= (input ("Enter your name:")).title()
 if name_ == name_enter :
   print("Hello {} your pasword:{}".format(name_,pasword))
 else:
-  print("Hi, {}! See you later".format(name_enter))
+  print("Hi, {}! See you later".format(name_enter)
+
+          Pasword işlemi ile ilgili açıklama yazıldı.)
